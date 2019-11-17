@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+       <span class="navbar-brand mb-3 h1" style="font-size: 45px;">Weather Dashboard</span>
+       <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index1.html"><h4>5 Day Weather Forecast</h4></a>
+        </li>
+       </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-4">
+            <h3>Search for a City:</h3>
+            <div class="search-container">
+                
+                    <input id="city"></input>
+                    <button id="getWeatherForecast"><i class="fa fa-search"></i></button>
+                    <span id="error"></span>
+                
+            </div>  
+        <div id="history"></div> 
+        </div>
+        <div class="col-8">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Current Weather</h4>
+                <div id="showWeather"></div>
+            </div>  
+        </div> 
+    </div>  
+       
+    <!--Jquery link-->
+    
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <!--Logic js-->
+    <script src="weather.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+
+.navbar-brand mb-5 h1 {
+    text-align: center;
+}
+span {
+    color: white;
+   margin-left: 490px;
+   margin-top: 20px;
+   font-size: 140px;
+}
+
+
+
+button {
+    background-color: dodgerblue;
+    margin-left: -5px;
+    height: 40px;
+    width: 50px;
+}
+.search-container {
+    margin-left: -135px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+body {
+    
+    background-color: white;
+    
+}
+h3 {
+    margin-left: -130px;
+}
+input {
+    height: 40px;
+}
+.card {
+   height: 370px;
+   margin-right: -150px;
+   margin-top: 40px;
+   margin-left: -180px;
+}
+
+
+
